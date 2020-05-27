@@ -6,4 +6,4 @@
 ### 编辑器
 
 - VS Code
-- Git
+- [Git](./git-install.md)
