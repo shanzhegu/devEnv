@@ -1,6 +1,11 @@
 # devEnv
 
-搭建开发环境，编辑器、NodeJs、Git ...
+搭建开发环境，编辑器、node、Git ...
+
+
+### node
+
+[安装配置](./node-install.md)
 
 
 ### 编辑器
