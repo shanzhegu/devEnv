@@ -14,5 +14,8 @@
 
 [branch 和 remote](./git-branch-remote.md)
 
-1. [同步](./git-update.md)
-2. [忽略文件](./git-ignore.md)
+[本地仓库和远程仓库同步](./git-update.md)
+
+[忽略文件](./git-ignore.md)
+
+公钥代表的是 github 账户，一个公钥只能代表唯一的一个账户。[公钥 和 github](./github-account-ssh.md)
