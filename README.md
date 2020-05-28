@@ -3,7 +3,7 @@
 搭建开发环境，编辑器、node、Git ...
 
 
-### node
+### Node
 
 [安装配置](./node-install.md)
 
