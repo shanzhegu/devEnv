@@ -6,4 +6,9 @@
 ### 编辑器
 
 - VS Code
-- [Git](./git-install.md)
+
+
+### Git
+
+[安装、基本配置](./git-install.md)
+
