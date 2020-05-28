@@ -22,7 +22,7 @@
 这是 github 设定的规则，是 github 设定的安全机制
 
 > GitHub will use the key as means to identify you when you connect to them via SSH. As such, you cannot have multiple accounts with the same key, as GitHub won’t be able to tell then which of your accounts you want to use.
-
+> /n
 > 来源 - stackoverflow  [简书](https://www.jianshu.com/p/12badb7e6c10) 
 
 当多个账户绑定同一个 key 的时候，github 就没法判断到底哪个账户是才是你的帐户。公钥对应的是 github 账户
