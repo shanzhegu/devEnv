@@ -20,9 +20,9 @@ node 安装过程中，会把 node 的安装目录自动添加到 *系统变量�
 
 #### 环境变量
 
-系统变量里新建 NODE_PATH ，把设置的全局模块安装位置(global 中的 node_modules 目录)添加进去，比如 'D:\Program Files\nodejs\node_global\node_modules'
+系统变量里新建 NODE_PATH ，把设置的全局模块安装位置(global 中的 node_modules 目录)添加进去，比如我的是 'D:\Program Files\nodejs\node_global\node_modules'
 
-把全局模块目录，添加到用户变量的 Path 中去。我这里的全局模块目录是 'D:\Develop\nodejs\node_global'
+把全局模块目录，添加到用户变量的 Path 中去。我这里是 'D:\Develop\nodejs\node_global'
 
 
 #### 设置淘宝镜像
@@ -44,45 +44,3 @@ node 安装过程中，会把 node 的安装目录自动添加到 *系统变量�
 
   npm config list -g
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-为什么要设置 node 源码???
-设置node源码的源：
-
-npm config set disturl https://npm.taobao.org/dist --global
-
-
-
-
-设置代理
-默认代理为 http://proxy.example.com:8080/
-
-npm set proxy http://127.0.0.1:1080  --global
-npm set https-proxy http://127.0.0.1:1080  --global
-
-删除代理（删除代理之后，代理变成默认的）
-
-npm config delete proxy
-npm config delete https-proxy
-
-npm config get registry -g
-npm config get disturl -g
-npm config get proxy -g
-
-
-
-
-
-
-
-
