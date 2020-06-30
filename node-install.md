@@ -34,6 +34,17 @@ node 安装过程中，会把 node 的安装目录自动添加到 *系统变量�
 
 不要用 cnpm 来安装第三方模块，cnpm install 总是发生莫名其妙的错误。换成国内的 npm镜像 之后，npm 就会通过国内的网络来安装，还能避免一些不必要的错误，为什么不用 npm 呢...
 
+#### Electron 镜像
+
+安装 electron 的时候，下载总是出问题(应该是网络的问题)，从 [淘宝镜像](https://npm.taobao.org/mirrors) 来安装 electron 就好了
+
+```sh
+  # 设置 ELECTRON_MIRROR
+  npm config set ELECTRON_MIRROR http://npm.taobao.org/mirrors/electron/
+
+  # 正常安装、运行
+  npm i -D electron
+```
 
 #### 最后
 
