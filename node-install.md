@@ -22,7 +22,7 @@ node 安装过程中，会把 node 的安装目录自动添加到 *系统变量�
 
 系统变量里新建 NODE_PATH ，把设置的全局模块安装位置(global 中的 node_modules 目录)添加进去，比如我的是 'D:\Program Files\nodejs\node_global\node_modules'
 
-把全局模块目录，添加到用户变量的 Path 中去。我这里是 'D:\Develop\nodejs\node_global'
+把全局模块目录，添加到用户变量的 Path 中去。我这里是 'D:\Program Files\nodejs\node_global'
 
 
 #### 设置淘宝镜像
