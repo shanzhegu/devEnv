@@ -38,17 +38,17 @@
   git branch -v
 
   # result
-  #     dev    d0e211b branch dev fix
-  #   * master d0e211b branch dev fix
+  #   dev    d0e211b branch dev fix
+  # * master d0e211b branch dev fix
 ```
 
-本地仓库的分支 和 远程仓库分支 关联情况
+本地仓库分支 和 远程仓库分支 关联情况
 ```sh
   git branch -vv
 
   # result
-  #     dev    d0e211b branch dev fix
-  #   * master d0e211b [github/master] branch dev fix
+  #   dev    d0e211b branch dev fix
+  # * master d0e211b [github/master] branch dev fix
 ```
 
 如果已经关联远程分支，会显示具体的关联情况。如 [github/master]。没有关联远程分支的话，此命令显示的结果和 git branch -v 命令显示的结果相同
@@ -84,7 +84,7 @@
 
 ### 远程仓库
 
-和远程仓库 [git@github.com:demo/learn-git.git](git@github.com:demo/learn-git.git) 建立连接，并把远程仓库命名为 origin ，这个名字可以是 github、gitee、imooc 等
+和远程仓库 [git@github.com:demo/learn-git.git](git@github.com:demo/learn-git.git) 建立连接，并把远程仓库命名为 github ，这个名字可以是 origin、gitee、imooc 等
 ```sh
   git remote add github git@github.com:demo/learn-git.git
 ```
@@ -98,6 +98,7 @@
 ```sh
   git remote -v
 
+  # result
   # github  git@github.com:demo/learn-git.git (fetch)
   # github  git@github.com:demo/learn-git.git (push)
 ```
@@ -106,6 +107,7 @@
 ```sh
   git remote show github
 
+  # result
   # * remote github
   # Fetch URL: git@github.com:demo/learn-git.git
   # Push  URL: git@github.com:demo/learn-git.git
