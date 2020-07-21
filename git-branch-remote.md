@@ -70,7 +70,7 @@
   git branch -u origin/dev
 ```
 
-分支不同名时也是可以关联的，比如本地的 dev 分支和远程的 festival 分支。推送时，命令为 HEAD:festival
+分支名称不同时也是可以关联的，比如本地的 dev 分支和远程的 festival 分支。推送时，命令为 HEAD:festival
 ```sh
   # 本地分支和远程分支不同名时，推送命令
   git push origin HEAD:festival
