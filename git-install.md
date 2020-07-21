@@ -13,23 +13,23 @@ git 安装目录下边的 /bin /cmd 目录应该注意一下，有的时候会�
 生成密钥的时候，全局用户名、邮箱会包含在 ssh keys 信息中，向远程仓库推送、团队协作的时候，远程仓库看到的提交者信息就是这里配置的信息
 
 设置全局用户名
-```shell
-  git config --global user.name "Wing"
+```sh
+  git config --global user.name "name"
 ```
 
 设置全局用户邮箱
-```shell
-  git config --global user.email "Wing@163.com"
+```sh
+  git config --global user.email "name@email.com"
 ```
 
 查看设置项
-```shell
-  git config --list/-l
+```sh
+  git config --list\/-l
 ```
 
 查看全局设置项
-```shell
-  git config --global --list/-l
+```sh
+  git config --global --list\/-l
 ```
   
 utf-8 编码相关，配置里边 gui.encoding 默认是 utf-8，如果不是改过来就好。有时候乱码就是这个原因
@@ -52,7 +52,7 @@ utf-8 编码相关，配置里边 gui.encoding 默认是 utf-8，如果不是改
 
 具体的参看 ssh 系列
 
-```shell
+```sh
   # 生成 keys
   ssh-keygen -t rsa/dsa
 
