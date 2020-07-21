@@ -31,7 +31,7 @@ git 安装目录下边的 /bin /cmd 目录应该注意一下，有的时候会�
 ```sh
   git config --global --list/-l
 ```
-  
+
 utf-8 编码相关，配置里边 gui.encoding 默认是 utf-8，如果不是改过来就好。有时候乱码就是这个原因
 
 
